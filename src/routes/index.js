@@ -26,7 +26,7 @@ export default [
         component: Singers
       },
       {
-        path: 'rank',
+        path: '/rank',
         component: Rank
       }
     ]
