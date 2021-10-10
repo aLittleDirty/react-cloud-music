@@ -15,7 +15,7 @@ function RecommendList(props){
             return (
               <ListItem>
                 <div className="img_wrapper">
-                  <img className="img" src="item.picUrl"></img>
+                  <img className="img" src={item.picUrl+ "?param=300*300"} width="100%" height="100%"></img>
                   <span className="play_count">{item.playCount}</span>
                 </div>
                 <p>{item.name}</p>

@@ -23,6 +23,8 @@ export const ListItem = styled.div`
   width: 32%;
   .img_wrapper {
     position: relative;
+    height: 0;
+    padding-bottom: 100%;
     .play_count {
       position: absolute;
       right: 5px;
